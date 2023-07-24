@@ -1,0 +1,10 @@
+body{
+    color: darkorange;
+
+}
+.container-fluid{
+    height: 100vh;
+}
+.time span{
+    margin-left: 5px;
+}

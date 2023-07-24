@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid bg-dark">
+        <div class="row bg-info text-dark text-center">
+            <h1 >Stop Watch</h1>
+
+        </div>
+        <div class="row mt-5 ">
+        <div id="time" class="col text-center my-5 justify-content-between">
+            
+
+            <span class="digit display-1 text-info" id="hr">00</span>
+            <span class="txt h4">Hr</span>
+            <span class="digit display-1 text-light" id="min">00</span>
+            <span class="txt h4">Min</span>
+            <span class="digit display-1 text-danger" id="sec">00</span>
+            <span class="txt h4">Sec</span>
+            <span class="digit display-1 text-warning" id="count">00</span>
+        </div>
+    </div>
+        <div id="button  " class="my-5 col offset-xl-4 offset-md-3 offset-sm-1  ">
+            <button class="btn btn-primary px-5 py-2 " id="start" onclick="start()">Start</button>
+            <button class="btn btn-danger px-5 py-2" id="stop" onclick="stop()">Stop</button>
+            <button class="btn btn-warning px-5 py-2" id="reset" onclick="reset()">Reset</button>
+    </div>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
